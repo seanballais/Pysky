@@ -1,0 +1,29 @@
+{
+  "name": "pysky",
+  "version": "0.1.0",
+  "description": "A Skype bot that lets you execute Python code inside a Skype conversation.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanballais/Pysky.git"
+  },
+  "keywords": [
+    "skype"
+  ],
+  "author": "Sean Francis N. Ballais",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/seanballais/Pysky/issues"
+  },
+  "homepage": "https://github.com/seanballais/Pysky#readme",
+  "engines": {
+    "node": ">=5.6.0"
+  },
+  "dependencies": {
+    "restify": "^4.1.1",
+    "skype-sdk": "file:///home/seanballais/Downloads/skype-sdk.tar.gz"
+  }
+}
